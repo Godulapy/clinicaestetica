@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es-PY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Gódula. Tratamientos faciales, corporales y depilación láser en Asunción. Armá tu paquete de depi y solicitá tu cita por WhatsApp.">
+  <meta name="theme-color" content="#873e50">
+  <title>Gódula · Cuidamos tu belleza</title>
+  <link rel="icon" href="assets/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="header">
+  <a class="brand" href="#inicio" aria-label="Gódula, inicio"><img src="assets/logo.jpg" alt="" width="62" height="62"><span>gódula<small>CLÍNICA ESTÉTICA</small></span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">☰</button>
+  <nav id="menu" aria-label="Navegación principal"><a href="#tratamientos">Tratamientos</a><a href="#depi">Depi láser</a><a href="#ubicacion">Ubicación</a><a class="nav-cta" href="#cita">Agendá tu cita ↗</a></nav>
+</header>
+<main id="contenido">
+  <!-- INICIO: una única propuesta principal. -->
+  <section class="hero pattern" id="inicio" aria-labelledby="hero-title">
+    <div class="hero-copy"><p class="eyebrow">GÓDULA · ASUNCIÓN</p><h1 id="hero-title">Cuidamos tu<br><strong>belleza.</strong></h1><p class="lead">Tratamientos faciales, corporales<br class="desktop"> y depilación láser en Asunción.</p><a class="button" href="#cita">Agendá tu cita <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#tratamientos">Conocé los tratamientos ↓</a><span class="hero-signature">Un cuidado a tu medida.</span></div>
+    <figure class="hero-photo"><img src="assets/retrato.png" alt="Retrato de ambientación: un momento de calma y cuidado" width="1122" height="1402" fetchpriority="high"><figcaption>Imagen de ambientación</figcaption></figure>
+  </section>
+  <!-- TRATAMIENTOS: desplegables nativos que funcionan también sin JavaScript. -->
+  <section class="section" id="tratamientos" aria-labelledby="treatment-title">
+    <div class="section-top"><p class="eyebrow">01 / TRATAMIENTOS</p><h2 id="treatment-title">Un cuidado <strong>a tu medida.</strong></h2></div>
+    <div class="treatment-grid">
+      <article class="treatment-card"><span class="category-number">01</span><h3>Corporales</h3><p>Conocé nuestras opciones de cuidado corporal.</p><details><summary>Ver tratamientos <span aria-hidden="true">+</span></summary><ul class="service-list">
+        <li><span>Body Sculpt</span><a href="#cita" data-service="Body Sculpt" aria-label="Me interesa Body Sculpt">Me interesa ↗</a></li>
+        <li><span>Criolipólisis</span><a href="#cita" data-service="Criolipólisis" aria-label="Me interesa Criolipólisis">Me interesa ↗</a></li>
+        <li><span>Crioradiofrecuencia corporal</span><a href="#cita" data-service="Crioradiofrecuencia corporal" aria-label="Me interesa Crioradiofrecuencia corporal">Me interesa ↗</a></li>
+        <li><span>Ultracavitación</span><a href="#cita" data-service="Ultracavitación" aria-label="Me interesa Ultracavitación">Me interesa ↗</a></li>
+        <li><span>Ondas rusas</span><a href="#cita" data-service="Ondas rusas" aria-label="Me interesan Ondas rusas">Me interesa ↗</a></li>
+        <li><span>Ondas de choque</span><a href="#cita" data-service="Ondas de choque" aria-label="Me interesan Ondas de choque">Me interesa ↗</a></li>
+        <li><span>Masajes drenomodeladores</span><a href="#cita" data-service="Masajes drenomodeladores" aria-label="Me interesan Masajes drenomodeladores">Me interesa ↗</a></li>
+      </ul></details></article>
+      <article class="treatment-card"><span class="category-number">02</span><h3>Faciales</h3><p>Elegí un momento para cuidar tu rostro.</p><details><summary>Ver tratamientos <span aria-hidden="true">+</span></summary><ul class="service-list">
+        <li><span>Radiofrecuencia facial</span><a href="#cita" data-service="Radiofrecuencia facial" aria-label="Me interesa Radiofrecuencia facial">Me interesa ↗</a></li>
+        <li><span>Crioradiofrecuencia facial</span><a href="#cita" data-service="Crioradiofrecuencia facial" aria-label="Me interesa Crioradiofrecuencia facial">Me interesa ↗</a></li>
+      </ul></details></article>
+      <article class="treatment-card depi-card"><span class="category-number">03</span><h3>Depilación láser</h3><p>Elegí tus zonas o un combo listo para vos.</p><a class="outline-button" href="#depi">Armá tu plan de depi ↗</a></article>
+    </div>
+    <p class="evaluation">¿No sabés cuál elegir? <a href="#cita" data-service="Evaluación">Solicitá una evaluación ↗</a></p>
+  </section>
+  <!-- DEPI: catálogo y combos sin precios. -->
+  <section class="section depi-section pattern" id="depi" aria-labelledby="depi-title">
+    <div class="section-top"><p class="eyebrow">02 / DEPILACIÓN LÁSER</p><h2 id="depi-title">Tu plan de depi,<br><strong>hecho a tu medida.</strong></h2><p>Elegí tus zonas o un combo listo para vos.</p></div>
+    <div class="depi-grid">
+      <div class="package panel"><h3>Armá tu paquete</h3><p>Combiná las zonas que querés tratar.</p><div class="sizes" role="group" aria-label="Tamaño de zona"><button type="button" data-size="Mini" aria-pressed="false">Mini</button><button type="button" data-size="Pequeña" aria-pressed="true">Pequeña</button><button type="button" data-size="Mediana" aria-pressed="false">Mediana</button><button type="button" data-size="Grande" aria-pressed="false">Grande</button></div>
+        <fieldset class="zones"><legend id="zone-legend">Zonas pequeñas</legend><div id="zone-options"></div></fieldset>
+        <noscript><p>Activá JavaScript para seleccionar zonas o consultanos directamente por WhatsApp.</p></noscript>
+        <div class="selection-box"><p><strong>Tu selección</strong> <span id="zone-count" aria-live="polite">· 0 zonas</span></p><div id="selected-zones"><p class="empty">Elegí una o más zonas para comenzar.</p></div><button id="clear-zones" class="text-button" type="button" hidden>Limpiar selección</button></div>
+        <button class="button full" id="request-package" type="button" disabled>Solicitar mi paquete ↗</button><p class="small">Te confirmamos la cotización por WhatsApp.</p>
+      </div>
+      <div class="combos"><h3>O elegí un combo</h3>
+        <article class="combo"><div><h4>Essential</h4><p>Axilas + bozo + mentón</p><p class="gift">✧ Entrecejo de regalo</p></div><a class="outline-button" data-combo="Essential" href="#cita">Elegir Essential ↗</a></article>
+        <article class="combo"><div><h4>Bikini</h4><p>Axilas + cavado + tiro de cola</p><p class="gift">✧ Línea alba de regalo</p></div><a class="outline-button" data-combo="Bikini" href="#cita">Elegir Bikini ↗</a></article>
+        <article class="combo"><div><h4>Body</h4><p>Axilas + cavado + piernas completas</p><p class="gift">✧ Bozo de regalo</p></div><a class="outline-button" data-combo="Body" href="#cita">Elegir Body ↗</a></article>
+        <p class="small">Elegí tu opción y continuá con la solicitud de cita.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section location" id="ubicacion" aria-labelledby="location-title">
+    <div><p class="eyebrow">03 / UBICACIÓN</p><h2 id="location-title">Te esperamos<br><strong>en Gódula.</strong></h2><address>Dr. Gerónimo Zubizarreta<br>e/ Hipólito Carrón y Domingo Portillo<br><strong>Barrio Mburucuyá · Asunción</strong></address><p class="hours">Lunes a viernes · 9:00 a 18:00<br>Sábados · 8:00 a 14:00</p><a class="button" href="https://maps.app.goo.gl/TxcdLHC57FPUBQjr8?g_st=com.google.maps.preview.copy" target="_blank" rel="noopener noreferrer">Cómo llegar ↗</a></div>
+    <figure class="map"><div class="map-crop"><img src="assets/ubicacion.jpg" alt="Mapa ilustrativo de Gódula cerca de Hipólito Carrón, sobre Dr. Gerónimo Zubizarreta" width="1080" height="1920" loading="lazy"></div><figcaption>Mapa ilustrativo · Abrí Google Maps para ver la ruta.</figcaption></figure>
+  </section>
+  <!-- CITA: una solicitud por WhatsApp, no una reserva automática. -->
+  <section class="section booking pattern" id="cita" aria-labelledby="booking-title">
+    <div class="booking-intro"><p class="eyebrow">04 / SOLICITÁ TU CITA</p><h2 id="booking-title">Elegí cuándo<br><strong>te gustaría venir.</strong></h2><p>Confirmamos disponibilidad y horario por WhatsApp.</p><div class="booking-brand" aria-hidden="true"><img src="assets/logo.jpg" alt="" width="120" height="120"></div></div>
+    <form class="booking-form panel" id="booking-form">
+      <label for="name">Tu nombre</label><input id="name" name="nombre" autocomplete="given-name" placeholder="¿Cómo te llamás?" maxlength="80" required>
+      <label for="service">Servicio</label><select id="service" name="servicio" required><option value="">Seleccioná un tratamiento</option><option>Evaluación</option><optgroup label="Corporales"><option>Body Sculpt</option><option>Criolipólisis</option><option>Crioradiofrecuencia corporal</option><option>Ultracavitación</option><option>Ondas rusas</option><option>Ondas de choque</option><option>Masajes drenomodeladores</option></optgroup><optgroup label="Faciales"><option>Radiofrecuencia facial</option><option>Crioradiofrecuencia facial</option></optgroup><optgroup label="Depilación láser"><option>Depilación láser</option><option>Combo Essential</option><option>Combo Bikini</option><option>Combo Body</option><option value="Paquete de depi personalizado" id="custom-option" disabled>Paquete de depi personalizado</option></optgroup></select>
+      <div class="booking-selection" id="booking-selection" hidden></div>
+      <label for="date">Fecha preferida</label><input id="date" name="fecha" type="date" aria-describedby="date-help" required><p class="small" id="date-help">Atendemos de lunes a sábado. Elegí la fecha que te resulte cómoda.</p>
+      <fieldset class="time-options"><legend>Franja preferida</legend><label><input type="radio" name="franja" value="Mañana" required> Mañana</label><label id="afternoon"><input type="radio" name="franja" value="Tarde" required> Tarde</label><label id="anytime"><input type="radio" name="franja" value="Sin preferencia" required> Sin preferencia</label></fieldset>
+      <p id="date-error" class="error" role="alert"></p><button class="button full" type="submit">Solicitar por WhatsApp ↗</button><p class="small">La cita queda confirmada cuando coordinamos el horario con vos.</p><noscript><p>Para solicitar tu cita, <a href="https://wa.me/595987302505">escribinos directamente por WhatsApp</a>.</p></noscript>
+    </form>
+  </section>
+</main>
+<footer><a class="brand" href="#inicio" aria-label="Gódula, volver al inicio"><img src="assets/logo.jpg" alt="" width="55" height="55"><span>gódula<small>CUIDAMOS TU BELLEZA</small></span></a><div class="footer-links"><a href="https://wa.me/595987302505" target="_blank" rel="noopener" data-whatsapp>WhatsApp ↗</a><a href="https://www.instagram.com/godulapy/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#ubicacion">Ubicación ↑</a></div><p class="small">© <span id="year">2026</span> Gódula · Asunción</p></footer>
+<div class="floating"><button id="sound" type="button" aria-pressed="false" aria-label="Activar música ambiente"><span aria-hidden="true">♫</span><span id="sound-label">Activar calma</span></button><a class="wa" href="https://wa.me/595987302505?text=Buenas%2C%20quisiera%20consultar%20por%20un%20tratamiento%20en%20G%C3%B3dula." target="_blank" rel="noopener" aria-label="Consultar por WhatsApp" data-whatsapp><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 15.5a11 11 0 0 1-16.4 9.6L5 27l1.8-5.5A11 11 0 1 1 27 15.5Z"/><path d="M11 10c-2 2 1 8 5 10 3 1 5-1 5-2l-4-2-1 2c-2-1-3-2-4-4l1-1Z"/></svg></a></div>
+<p id="status" class="sr-only" role="status" aria-live="polite"></p>
+</body></html>
